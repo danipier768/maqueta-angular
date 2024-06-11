@@ -1,0 +1,11 @@
+header{
+        height: 45vh;
+        background-image: linear-gradient(to right, rgb(0 0 0 / 80%), rgba(0, 0, 0, 0.5)), url('/assets/code-fuente.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        @media(max-width: 768px){
+                .btn-danger{
+                        width: 40% !important;;
+                    }
+        }
+}

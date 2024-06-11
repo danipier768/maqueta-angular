@@ -1,0 +1,8 @@
+.computer-icon{
+    width: 20%;
+}
+.computer-icon{
+    @media(max-width: 768px) {
+        width: 100%;
+    }
+}
