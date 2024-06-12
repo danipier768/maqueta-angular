@@ -15,6 +15,13 @@
         right: 0;
         transform: translatey(-50%);
         z-index: -1;
+        @media(max-width: 768px){
+                height: 4px;
+                width: 100%;
+                top: calc(50% - 2px);
+                left: 0;
+                background-color: white;
+        }
     }
     .timeline-icon {
         width: 40px;
@@ -30,11 +37,26 @@
         position: relative;
         z-index: 9999;
     }
+    @media(max-width: 768px){
+            margin-bottom: 20px;
+            width: 100%;
+    }
     
 }
 .timeline-icon {
     width: 100%;
     position: relative;
 }
-
+.rer{
+    justify-content: center;
+}
+.row{
+    margin-right:  0;
+    padding-right: 0;
+}
+.timeline{
+    @media(max-width: 768px){
+        flex-direction: column;
+    }
+}
 
